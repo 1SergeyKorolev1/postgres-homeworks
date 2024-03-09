@@ -19,5 +19,5 @@ select count(*) as count_orders
 from orders
 
 -- 5. количество стран, в которые отгружался товар (таблица orders, колонка ship_country)
-select count(distinct ship_country) as cont_ship_country's
+select count(distinct ship_country) as cont_ship_country
 from orders
